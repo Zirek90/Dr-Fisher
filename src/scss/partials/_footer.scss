@@ -1,20 +1,31 @@
-.bottom-menu {
-  margin: 0;
-  border: none;
-  opacity: 1;
-  width: 100%;
-  font-size: 2rem;
-  .navbar-nav>li>a  {
-    color: black;
-    &:hover {
-      color: #123dff;
-      font-weight: bold;
-      font-size: 2.1rem;
+.footer {
+  background-color: #f8f8f8;
+  .bottom-menu {
+    margin: 0;
+    border: none;
+    opacity: 0.8;
+    width: 100%;
+    font-size: 2rem;
+    .navbar-nav > li > a {
+      color: black;
+      &:hover {
+        font-weight: bold;
+        font-size: 2.2rem;
+      }
     }
-
+    .navbar-nav {
+      display: inline-flex;
+    }
   }
-
-  .navbar-nav {
-    display: inline-flex;
+  p {
+    margin-bottom: 0;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 30px;
+    span {
+      font-weight: normal;
+      padding-left: 30px;
+    }
   }
 }

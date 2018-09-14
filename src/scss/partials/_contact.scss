@@ -26,15 +26,19 @@
         align-items: center;
         text-align: left;
       }
+      .contact-info > div {
+        background-color: rgba(230, 230, 230, 0.3);
+        padding: 10px;
+      }
     }
   }
 
 }
+
 .gm-style-iw {
   margin: 0;
   padding: 0;
 }
-
 
 @media (min-width: 992px) {
   .contact-info {
