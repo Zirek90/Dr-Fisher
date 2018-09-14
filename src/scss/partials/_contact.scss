@@ -1,0 +1,115 @@
+.map-loading-element {
+  height: 100%;
+}
+
+
+
+.map-element {
+  height: 100%;
+
+}
+
+
+
+.contact-container {
+  h1 {
+    font-size: 5.2rem;
+    padding: 0;
+    margin: 20px;
+  }
+  .contact-row {
+    height: 76vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contact-info {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: left;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-info {
+    h3 {
+      font-size: 5rem;
+      padding-bottom: 30px;
+    }
+    p {
+      letter-spacing: 2px;
+      font-size: 2rem;
+    }
+  }
+  .map-container-element {
+    height: 450px;
+    width: 500px;
+    margin: 50px;
+  }
+  .MapInfo {
+    width: 150px;
+    height: 150px;
+    img {
+      width: 100px;
+      height: 50px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .contact-info {
+    h3 {
+      font-size: 3rem;
+      padding-bottom: 30px;
+    }
+    p {
+      letter-spacing: 1px;
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  .map-container-element {
+    height: 300px;
+    width: 350px;
+    margin: 25px;
+  }
+  .MapInfo {
+    width: 55px;
+    height: 60px;
+    img {
+      width: 50px;
+      height: 25px;
+    }
+    h3 {
+      font-size: 1rem;
+      margin: 5px;
+    }
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media (max-width: 543px) {
+  .map-container-element {
+    height: 150px;
+    width: 200px;
+    margin: 25px;
+  }
+  .MapInfo {
+    width: 40px;
+    height: 45px;
+    img {
+      width: 35px;
+      height: 35px;
+      margin-bottom: 2px;
+    }
+    h3 {
+      font-size: 0.7rem;
+      margin-bottom: 2px;
+    }
+    p {
+      font-size: 0.5rem;
+    }
+  }
+}

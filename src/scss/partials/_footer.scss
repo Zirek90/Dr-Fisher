@@ -1,0 +1,12 @@
+.bottom-menu {
+  margin: 0;
+  border: none;
+  opacity: 0.7;
+  width: 100%;
+  background-image: linear-gradient(to right, #2bc0e4, #eaecc6);
+  border: 1px dashed black;
+
+  .navbar-nav {
+    display: inline-flex;
+  }
+}
