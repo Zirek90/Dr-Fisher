@@ -2,34 +2,39 @@
   height: 100%;
 }
 
-
-
 .map-element {
   height: 100%;
 
 }
 
-
-
-.contact-container {
-  h1 {
-    font-size: 5.2rem;
-    padding: 0;
-    margin: 20px;
-  }
-  .contact-row {
-    height: 76vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .contact-info {
-      height: 100%;
+.contact {
+  //background-image: radial-gradient(#b0d6e4, #e2ecdc);
+  .contact-container {
+    h1 {
+      font-size: 5.2rem;
+      padding: 0;
+      margin: 20px;
+    }
+    .contact-row {
+      height: 76vh;
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      text-align: left;
+      .contact-info {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: left;
+      }
     }
   }
+
 }
+.gm-style-iw {
+  margin: 0;
+  padding: 0;
+}
+
 
 @media (min-width: 992px) {
   .contact-info {
@@ -56,6 +61,7 @@
     }
   }
 }
+
 @media (max-width: 991px) {
   .contact-info {
     h3 {

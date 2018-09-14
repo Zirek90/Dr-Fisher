@@ -14,27 +14,27 @@ import SideBarGallery from "./subcomponents/SideBarGallery";
 const gallery = [
     {
         photo: project1,
-        title: "przebiegu budowy",
+        title: "",
     },
     {
         photo: project2,
-        title: "obiektów na sprzedaż",
+        title: "",
     },
     {
         photo: project3,
-        title: "otoczenia nieruchomości",
+        title: "",
     },
     {
         photo: project4,
-        title: "do wizualizacji",
+        title: "",
     },
     {
         photo: project5,
-        title: "architektury i krajobrazów",
+        title: "",
     },
     {
         photo: project6,
-        title: "monitoringu obiektów",
+        title: "",
     }
 ];
 

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import ImageGallery from 'react-image-gallery';
 
-import photoSlider1 from '../../../img/fil sledz w oleju.jpg';
-import photoSlider2 from '../../../img/fil sledz w pomid.jpg';
+import photoSlider1 from '../../../img/product1.JPG';
+import photoSlider2 from '../../../img/product2.JPG';
 
 class HomeSlider extends Component {
     render() {
@@ -18,7 +18,7 @@ class HomeSlider extends Component {
 
         return (
             <ImageGallery items={images}
-            slideInterval={3000}
+            slideInterval={6000}
             slideDuration={1500}
             showPlayButton={false}
             autoPlay={false}

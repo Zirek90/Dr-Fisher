@@ -6,7 +6,7 @@ import ContactInfo from "./components/ContactInfo";
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <div className="contact">
                 <Grid className="text-center contact-container">
                     <h1>Kontakt</h1>
                     <ContactInfo/>

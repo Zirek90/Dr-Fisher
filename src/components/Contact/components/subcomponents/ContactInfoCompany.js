@@ -7,29 +7,32 @@ class ContactInfoCompany extends Component {
         return (
             <Col className="contact-info">
                 <div>
-                <h3>GRAAL S.A.</h3>
-                <p>
-                    ul. Zachodnia 22
-                <br/>
-                    84-200 Wejherowo
-                    <br/>
+                    <h3>Dr.Fisher Sp. z o.o.</h3>
+                    <p>
+                        ul. Stryjska 24
+                        <br/>
+                        81-506 Gdynia
+                        <br/>
 
-                    NIP: 588-20-01-859
-                    <br/>
+                        NIP: 586-220-96-28
+                        <br/>
 
-                    Sad Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy
-                    <br/>
+                        REGON: 220547633
+                        <br/>
 
-                    Krajowego Rejestru Sadowego
-                    <br/>
+                        Sad Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy
+                        <br/>
 
-                    NR KRS: 0000205630
-                    <br/>
+                        Krajowego Rejestru Sadowego
+                        <br/>
 
-                    K. zakładowy.: 68.456.310 PLN
-                    <br/>
+                        NR KRS: 0000292569
+                    </p>
+                    <p>Dział handlowy tel: 508 051 500
+                        <br/>
 
-                    K. wpłacony: 68.456.310 PLN</p>
+                        Email: Drfisher@onet.pl
+                    </p>
                 </div>
             </Col>
         );

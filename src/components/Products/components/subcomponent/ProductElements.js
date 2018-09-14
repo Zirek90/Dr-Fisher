@@ -6,18 +6,18 @@ class ProductElements extends Component {
     constructor(props) {
         super(props)
         this.state ={
-            opacity: "rgba(64, 152, 229, 0.5)"
+            opacity: "transparent"
         }
     }
     increaseOpacity = () => {
         this.setState({
-            opacity: "rgba(64, 152, 229, 1)"
+            opacity: "rgba(230,230,230, 0.4)"
         })
     }
 
     decreaseOpacity = () => {
         this.setState({
-            opacity: "rgba(64, 152, 229, 0.5)"
+            opacity: "transparent"
         })
     }
 
@@ -31,8 +31,8 @@ class ProductElements extends Component {
                     onMouseEnter={this.increaseOpacity}
                     onMouseLeave={this.decreaseOpacity}>
                         <ul>
-                            <li><span className="product-text"> Opis: </span> {this.props.description}</li>
-                            <li><span className="product-text">Gramatura: </span> {this.props.dimension}</li>
+                            <li><span className="product-text">Opis: </span> {this.props.description}</li>
+                            <li><span className="product-text">Wymiary: </span> {this.props.dimension}</li>
                             <li><span className="product-text">Waga: </span> {this.props.nettoWeight}</li>
                             <li><span className="product-text">Sposób pakowania: </span> {this.props.packingStyle}</li>
                             <li><span className="product-text">Dostępność:</span> {this.props.accesibility}</li>

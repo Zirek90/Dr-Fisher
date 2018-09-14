@@ -1,12 +1,12 @@
 import {withScriptjs, withGoogleMap, GoogleMap, Marker, InfoWindow} from "react-google-maps"
 import React, {Component} from 'react';
-import photo from "../../../../img/WP_20150313_001.jpg"
+import logo from "../../../../img/logo.png"
 import {Col} from 'react-bootstrap'
 
 
 const MyMapComponent = withScriptjs(withGoogleMap((props) =>
     <GoogleMap
-        defaultZoom={15}
+        defaultZoom={11}
         defaultCenter={{lat: 54.406364, lng: 17.155092}}
     >
         {props.isMarkerShown && <Marker position={{lat: 54.407203, lng: 17.155245}}
@@ -14,9 +14,12 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
         >
             <InfoWindow>
                 <div className={"MapInfo"}>
-                    <img src={photo}></img>
-                    <h3>Dr Fisher</h3>
-                    <p>ul. Zachodnia 22</p>
+                    <img src={logo}></img>
+                    <p>ul. Stryjska 24
+                    <br/>
+                    81-506 Gdynia</p>
+                    <p><a href="508 051 500">tel: 508 051 500</a></p>
+                    <p><a href="mailto:Drfisher@onet.pl">Drfisher@onet.pl</a></p>
                 </div>
             </InfoWindow>
 

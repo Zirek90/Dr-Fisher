@@ -1,5 +1,6 @@
 .main-products-container {
-  background-image: linear-gradient(to right, #2bc0e4, #eaecc6);
+  //background-image: radial-gradient( #b0d6e4, #e2ecdc);
+  font-family: Arial, sans-serif;
 }
 
 .jumbotron {
@@ -10,12 +11,27 @@
     font-size: 5rem;
   }
 }
+#root > div > div > div > div.row > div > div:nth-child(1) > h2 {
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.76), rgba(184, 199, 118, 0.582));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke-width: 1px;
+}
+#root > div > div > div > div.row > div > div:nth-child(2) > h2 {
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.76), rgba(184, 199, 118, 0.582));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke-width: 1px;
+}
+
 
 .products-row {
   h2 {
     text-transform: uppercase;
     padding: 10px;
+    font-weight: bold;
   }
+
   .product-element-container {
     width: 100%;
     display: flex;

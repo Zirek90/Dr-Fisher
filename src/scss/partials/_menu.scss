@@ -1,15 +1,25 @@
 .top-menu {
-  margin: 0;
   background-color: #ffffff;
-
   border: none;
   opacity: 0.8;
+  margin: 0;
+
   .navbar-brand {
     padding: 0;
     margin: 0;
     .logo {
-      width: 100px;
-      height: 50px;
+      width: 150px;
+      height: 70px;
     }
   }
+  .navbar-nav>li>a {
+    font-size: 2rem;
+    color: black;
+    &:hover {
+      font-size: 2.1rem;
+      color: #123dff;
+      font-weight: bold;
+    }
+  }
+
 }

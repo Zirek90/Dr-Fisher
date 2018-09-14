@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import logo from "../../img/znak_drFisher_01.jpg";
+import logo from "../../img/logo.png";
 
 class Menu extends Component {
 
