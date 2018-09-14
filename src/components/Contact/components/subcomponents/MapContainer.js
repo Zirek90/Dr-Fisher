@@ -2,6 +2,7 @@ import {withScriptjs, withGoogleMap, GoogleMap, Marker, InfoWindow} from "react-
 import React, {Component} from 'react';
 import logo from "../../../../img/logo.png"
 import {Col} from 'react-bootstrap'
+import Google_API from './config';
 
 
 const MyMapComponent = withScriptjs(withGoogleMap((props) =>
@@ -30,13 +31,14 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
 
 class MapContainer extends Component {
     render() {
-        const Google_API = "AIzaSyBzozCH6QP2_nxDfaWud45oWuLRrP11pBQ";
+        // const Google_API = "AIzaSyBzozCH6QP2_nxDfaWud45oWuLRrP11pBQ";
+        const Api = `https://maps.googleapis.com/maps/api/js?key=${Google_API}`;
 
         return (
             <Col>
                 <MyMapComponent
                     isMarkerShown
-                    googleMapURL='https://maps.googleapis.com/maps/api/js?key=AIzaSyBzozCH6QP2_nxDfaWud45oWuLRrP11pBQ'
+                    googleMapURL={Api}
                     type="text/javascript"
 
                     loadingElement={<div className={"map-loading-element"}/>}
