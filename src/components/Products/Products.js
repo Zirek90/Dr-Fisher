@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Row} from 'react-bootstrap'
+import {Grid} from 'react-bootstrap'
 import ProductsHeader from "./components/ProductsHeader";
 import ProductsList from "./components/ProductsList";
 

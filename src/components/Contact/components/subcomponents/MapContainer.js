@@ -15,7 +15,7 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
         >
             <InfoWindow>
                 <div className={"MapInfo"}>
-                    <img src={logo}></img>
+                    <img src={logo} alt="company logo"></img>
                     <p>ul. Stryjska 24
                     <br/>
                     81-506 Gdynia</p>
@@ -31,7 +31,6 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
 
 class MapContainer extends Component {
     render() {
-        // const Google_API = "AIzaSyBzozCH6QP2_nxDfaWud45oWuLRrP11pBQ";
         const Api = `https://maps.googleapis.com/maps/api/js?key=${Google_API}`;
 
         return (

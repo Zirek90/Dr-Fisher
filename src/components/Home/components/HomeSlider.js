@@ -21,7 +21,7 @@ class HomeSlider extends Component {
             slideInterval={10000}
             slideDuration={1500}
             showPlayButton={false}
-            autoPlay={false}
+            autoPlay={true}
             showFullscreenButton={false}
             showThumbnails={false}/>
         );

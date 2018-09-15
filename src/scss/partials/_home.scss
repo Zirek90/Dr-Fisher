@@ -2,33 +2,36 @@
   display: flex;
   justify-content: center;
   img {
-  width: 80%;
-  height: 70vh;
+    width: 80%;
+    height: 70vh;
   }
 }
-.image-gallery-slide.center {
+
+.image-gallery-slide {
   background-color: transparent;
+  .image-gallery-slide.center, .image-gallery-slide.left {
+    background-color: transparent;
+  }
 }
 
 .about-us {
   width: 60%;
   float: left;
   color: black;
-  background-color: rgba(230,230,230, 0.3);
+  background-color: rgba(230, 230, 230, 0.3);
   padding: 20px;
   border-radius: 10px;
 
   h1 {
     font-family: 'Cabin', 'Arial', sans-serif;
     font-size: 5.5rem;
-    //color: #123dff;
   }
   p {
     font-size: 2rem;
-    //color: #3777c8;
     text-align: justify;
   }
 }
+
 .side-bar {
   width: 35%;
   float: right;
@@ -41,6 +44,7 @@
     padding: 0;
   }
 }
+
 .modal-dialog {
   margin-top: 15%;
 }
