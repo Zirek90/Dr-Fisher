@@ -1,5 +1,7 @@
 {
   "name": "fishcan-project",
+  "author": "Mateusz Grzymowicz",
+  "homepage": "https://zirek90.github.io/Dr-Fisher/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
