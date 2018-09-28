@@ -7,17 +7,17 @@ class ContactInfoCompany extends Component {
         return (
             <Col className="contact-info">
                 <div>
-                    <h3>Dr.Fisher Sp. z o.o.</h3>
+                    <h3>INLETTA Sp. z o.o.</h3>
                     <p>
-                        ul. Stryjska 24
+                        Krzywań 25
                         <br/>
-                        81-506 Gdynia
-                        <br/>
-
-                        NIP: 586-220-96-28
+                        76-248 Dębnica Kaszubska
                         <br/>
 
-                        REGON: 220547633
+                        NIP: 586-223-01-37
+                        <br/>
+
+                        REGON: 220696563
                         <br/>
 
                         Sad Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy
@@ -26,12 +26,14 @@ class ContactInfoCompany extends Component {
                         Krajowego Rejestru Sadowego
                         <br/>
 
-                        NR KRS: 0000292569
+                        NR KRS: 0000316965
                     </p>
-                    <p>Dział handlowy tel: 508 051 500
+                    <p>Sekretariat tel: <a href="tel:(59)-815-20-53">(59) 815 20 53</a>
+                        <br/>
+                        Dział Handlowy tel: <a href="tel:(59)-815-20-54">(59) 815 20 54</a>
                         <br/>
 
-                        Email: Drfisher@onet.pl
+                        Email: <a href="mailto:Drfisher@onet.pl"> Drfisher@onet.pl</a>
                     </p>
                 </div>
             </Col>
