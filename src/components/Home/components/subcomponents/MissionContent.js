@@ -25,14 +25,14 @@ class MissionContent extends Component {
                         elementem
                         zdrowego odżywiania. Jesteśmy jedyną firmą, która przygotowuje swoje sosy z naturalnych
                         składników
-                        według orginalnych wieloletnich receptur. Marka Dr. Fisherjest gwarantem umiejętnego łączenia
+                        według orginalnych wieloletnich receptur. Marka Dr. Fisher jest gwarantem umiejętnego łączenia
                         tradycji i doświadczenia z dzisiejszymi trendami zdrowego odżywania, propagowanego przez
                         mistrzów
                         kulinarnych, lekarzy, dietetyków i sportowców.
                     </p>
-                    <p>"Autentycznie z nad morza" to nie tylko hasło, to adres. Nasze kutry dobijają do nadbrzeża
+                    <p><em>"Autentycznie z nad morza"</em> to nie tylko hasło, to adres. Nasze kutry dobijają do nadbrzeża
                         by wyładować swój ładunek prosto na nasze linie produkcyjne, gdzie wyspecjalizowany personel,
-                        który od wielu pokoleń zajmuje się prztwórstwem ryb przygotowuje je z myślą o Państwa zdrowiu
+                        który od wielu pokoleń zajmuje się przetwórstwem ryb przygotowuje je z myślą o Państwa zdrowiu
                         i satysfakcji.
                     </p>
                     <p>Produkty Dr. Fisher to świadomy wybór zdrowego odżywania bez obaw, że walory smakowe

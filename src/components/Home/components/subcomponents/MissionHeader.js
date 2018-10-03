@@ -4,7 +4,7 @@ class MissionHeader extends Component {
     render() {
         return (
             <div>
-                <h1>Przedsiębiorstwo handlowe <em>Dr Fisher</em></h1>
+                <h1>Przedsiębiorstwo handlowe <em>Inletta</em></h1>
             </div>
         );
     }
