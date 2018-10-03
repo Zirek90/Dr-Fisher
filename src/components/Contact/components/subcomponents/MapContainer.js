@@ -16,11 +16,10 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
             <InfoWindow>
                 <div className={"MapInfo"}>
                     <img src={logo} alt="company logo"></img>
-                    <p>ul. Stryjska 24
-                    <br/>
-                    81-506 Gdynia</p>
-                    <p><a href="508 051 500">tel: 508 051 500</a></p>
-                    <p><a href="mailto:Drfisher@onet.pl">Drfisher@onet.pl</a></p>
+                    <p>Inletta Sp z o.o.</p>
+                    <p>Krzywań 25</p>
+                    <p><a href="tel:(59) 815 20 53">tel: (59) 815 20 53</a></p>
+                    <p><a href="mailto:sekretariat@inletta.com">sekretariat@inletta.com</a></p>
                 </div>
             </InfoWindow>
 

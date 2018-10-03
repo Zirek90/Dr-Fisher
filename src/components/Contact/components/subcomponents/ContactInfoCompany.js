@@ -20,20 +20,21 @@ class ContactInfoCompany extends Component {
                         REGON: 220696563
                         <br/>
 
-                        Sad Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy
+                        KRS NR: 0000316965
                         <br/>
+                        Sąd Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy
+                        Krajowego Rejestru Sądowego
 
-                        Krajowego Rejestru Sadowego
-                        <br/>
-
-                        NR KRS: 0000316965
                     </p>
                     <p>Sekretariat tel: <a href="tel:(59)-815-20-53">(59) 815 20 53</a>
                         <br/>
                         Dział Handlowy tel: <a href="tel:(59)-815-20-54">(59) 815 20 54</a>
                         <br/>
 
-                        Email: <a href="mailto:Drfisher@onet.pl"> Drfisher@onet.pl</a>
+                        Email sekretariat: <a href="mailto:sekretariat@inletta.com"> sekretariat@inletta.com</a>
+                        <br/>
+
+                        Email dział handlowy: <a href="mailto:zamowienia@inletta.com"> zamowienia@inletta.com</a>
                     </p>
                 </div>
             </Col>
