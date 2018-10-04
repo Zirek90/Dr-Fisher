@@ -1,3 +1,5 @@
+$mapContainerTransition: ease-in 0.5s;
+
 .map-loading-element {
   height: 100%;
 }
@@ -52,6 +54,7 @@
     }
   }
   .map-container-element {
+    transition: $mapContainerTransition;
     height: 450px;
     width: 500px;
     margin: 50px;
@@ -79,6 +82,7 @@
     }
   }
   .map-container-element {
+    transition: $mapContainerTransition;
     height: 300px;
     width: 350px;
     margin: 25px;
@@ -100,11 +104,12 @@
   }
 }
 
-@media (max-width: 543px) {
+@media (max-width: 678px) {
   .map-container-element {
-    height: 150px;
-    width: 200px;
-    margin: 25px;
+    transition: $mapContainerTransition;
+    height: 180px;
+    width: 230px;
+    margin: 10px;
   }
   .MapInfo {
     width: 40px;
@@ -115,11 +120,11 @@
       margin-bottom: 2px;
     }
     h3 {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       margin-bottom: 2px;
     }
     p {
-      font-size: 0.5rem;
+      font-size: 0.4rem;
     }
   }
 }

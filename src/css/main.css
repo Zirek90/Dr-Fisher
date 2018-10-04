@@ -520,6 +520,7 @@ body {
     letter-spacing: 2px;
     font-size: 2rem; }
   .map-container-element {
+    transition: ease-in 0.5s;
     height: 450px;
     width: 500px;
     margin: 50px; }
@@ -539,6 +540,7 @@ body {
     font-size: 1rem;
     padding: 10px; }
   .map-container-element {
+    transition: ease-in 0.5s;
     height: 300px;
     width: 350px;
     margin: 25px; }
@@ -554,11 +556,12 @@ body {
     .MapInfo p {
       font-size: 0.7rem; } }
 
-@media (max-width: 543px) {
+@media (max-width: 678px) {
   .map-container-element {
-    height: 150px;
-    width: 200px;
-    margin: 25px; }
+    transition: ease-in 0.5s;
+    height: 180px;
+    width: 230px;
+    margin: 10px; }
   .MapInfo {
     width: 40px;
     height: 45px; }
@@ -567,10 +570,10 @@ body {
       height: 35px;
       margin-bottom: 2px; }
     .MapInfo h3 {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       margin-bottom: 2px; }
     .MapInfo p {
-      font-size: 0.5rem; } }
+      font-size: 0.4rem; } }
 
 .footer {
   background-color: #f8f8f8; }
