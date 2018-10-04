@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7d6db1-9690-4393-a003-2d075afa7930" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_home.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ContactInfoCompany.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Contact/components/subcomponents/ContactInfoCompany.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MissionContent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionContent.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,11 +28,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissionHeader.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SideBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/components/SideBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-223">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MissionHeader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/partials/_home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -90,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/components/Products/Products.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Home/components/HomeSlider.js" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_home.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/components/SideBar.js" />
         <option value="$PROJECT_DIR$/../../portfolioSide/my-portfolio/src/components/Projects.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -98,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/components/Contact/components/subcomponents/ContactInfoCompany.js" />
         <option value="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionContent.js" />
         <option value="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionHeader.js" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_home.scss" />
       </list>
     </option>
   </component>
@@ -233,12 +245,12 @@
       <workItem from="1536339925553" duration="11939000" />
       <workItem from="1536563220406" duration="47197000" />
       <workItem from="1537952233046" duration="32000" />
-      <workItem from="1538575695228" duration="1026000" />
+      <workItem from="1538575695228" duration="2039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60194000" />
+    <option name="totallyTimeSpent" value="61207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -334,23 +346,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1021" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
@@ -399,13 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/components/subcomponents/SideBarGallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -465,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/components/SideBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../portfolioSide/my-portfolio/src/components/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -513,10 +497,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Contact/components/subcomponents/ContactInfoCompany.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/components/subcomponents/SideBarGallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -527,17 +525,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_home.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Home/components/SideBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-223">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="123" column="3" lean-forward="true" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>

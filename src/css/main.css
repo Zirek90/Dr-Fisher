@@ -372,6 +372,7 @@ body {
   display: flex;
   justify-content: center; }
   .image-gallery-image img {
+    transition: ease-in 0.5s;
     width: 80%;
     height: 70vh; }
 
@@ -389,7 +390,8 @@ body {
   border-radius: 10px; }
   .about-us h1 {
     font-family: 'Cabin', 'Arial', sans-serif;
-    font-size: 5.5rem; }
+    font-size: 5.5rem;
+    margin-top: 8px; }
   .about-us p {
     font-size: 2rem;
     text-align: justify; }
@@ -406,6 +408,24 @@ body {
 
 .modal-dialog {
   margin-top: 15%; }
+
+@media (max-width: 991px) {
+  .about-us h1 {
+    font-size: 3.5rem;
+    font-style: italic; }
+  .about-us p {
+    font-size: 1.5rem; }
+  .side-bar h2 {
+    font-size: 3.5rem; } }
+
+@media (max-width: 567px) {
+  .about-us h1 {
+    font-size: 2.3rem; }
+  .about-us p {
+    font-size: 1.3rem; }
+  .image-gallery-image img {
+    transition: ease-in 0.5s;
+    height: 50vh; } }
 
 .main-products-container {
   font-family: Arial, sans-serif; }
