@@ -29,3 +29,24 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .footer {
+    .navbar-nav > li > a {
+      padding: 15px 15px 10px 10px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    .navbar-nav > li > a {
+      padding: 0 15px 10px 10px;
+    }
+  }
+}
+
+@media (max-width: 548px) {
+  .footer > p > span {
+    display: block;
+  }
+}
