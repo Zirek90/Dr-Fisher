@@ -26,7 +26,7 @@ class ProductElements extends Component {
             <Row className="products-row">
                 <h2>{this.props.title}</h2>
                 <Col xs={2} sm={12} className="product-element-container">
-                    <Image src={this.props.photo} responsive thumbnail/>
+                    <Image src={this.props.photo} thumbnail/>
                     <div className="products-description" style={{backgroundColor:this.state.opacity}}
                     onMouseEnter={this.increaseOpacity}
                     onMouseLeave={this.decreaseOpacity}>
