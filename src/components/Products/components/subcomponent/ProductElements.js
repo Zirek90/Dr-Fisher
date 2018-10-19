@@ -34,8 +34,8 @@ class ProductElements extends Component {
                             <li><span className="product-text">Opis: </span> {this.props.description}</li>
                             <li><span className="product-text">Wymiary: </span> {this.props.dimension}</li>
                             <li><span className="product-text">Waga: </span> {this.props.nettoWeight}</li>
-                            <li><span className="product-text">Sposób pakowania: </span> {this.props.packingStyle}</li>
-                            <li><span className="product-text">Dostępność:</span> {this.props.accesibility}</li>
+                            {/*<li><span className="product-text">Sposób pakowania: </span> {this.props.packingStyle}</li>*/}
+                            {/*<li><span className="product-text">Dostępność:</span> {this.props.accesibility}</li>*/}
                         </ul>
                     </div>
                 </Col>

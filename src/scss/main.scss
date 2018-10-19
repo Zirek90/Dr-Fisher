@@ -1,8 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("../img/DSC031392.JPG") center center/cover no-repeat fixed;
-  font-family: 'Dosis', 'Arial', sans-serif;
+  //background: url("../img/DSC031392.JPG") center center/cover no-repeat fixed;
+  //font-family: 'Dosis', 'Arial', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+
+
 }
 
 @import "../../node_modules/react-image-gallery/styles/scss/image-gallery.scss";

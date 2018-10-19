@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Grid} from 'react-bootstrap'
-import ProductsHeader from "./components/ProductsHeader";
 import ProductsList from "./components/ProductsList";
+
+{/*import ProductsHeader from "./components/ProductsHeader";*/}
 
 
 class Products extends Component {
@@ -9,7 +10,7 @@ class Products extends Component {
         return (
             <div className="main-products-container">
                 <Grid className="text-center">
-                    <ProductsHeader/>
+                    {/*<ProductsHeader/>*/}
                         <ProductsList/>
 
                 </Grid>

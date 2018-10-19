@@ -28,9 +28,6 @@ class ContactInfoCompany extends Component {
                     </p>
                     <p>Sekretariat tel: <a href="tel:(59)-815-20-53">(59) 815 20 53</a>
                         <br/>
-                        Dział Handlowy tel: <a href="tel:(59)-815-20-54">(59) 815 20 54</a>
-                        <br/>
-
                         Email sekretariat: <a href="mailto:sekretariat@inletta.com"> sekretariat@inletta.com</a>
                         <br/>
 

@@ -1,6 +1,17 @@
 .main-products-container {
   //background-image: radial-gradient( #b0d6e4, #e2ecdc);
-  font-family: Arial, sans-serif;
+  //font-family: Arial, sans-serif;
+  .logo {
+    width: 350px;
+    height: 200px;
+  }
+  p {
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+  .description-important {
+    font-weight: bolder;
+  }
+  }
 }
 
 .jumbotron {
@@ -8,7 +19,7 @@
   margin: 0;
   padding: 20px;
   h1 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 }
 
