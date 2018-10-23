@@ -353,13 +353,14 @@ body {
   background-color: #ffffff;
   border: none;
   opacity: 0.8;
-  margin: 0; }
+  margin: 0;
+  z-index: 2; }
   .top-menu .navbar-brand {
     padding: 0;
     margin: 0; }
     .top-menu .navbar-brand .logo {
       width: 250px;
-      height: 120px; }
+      height: 110px; }
   .top-menu .navbar-nav > li > a {
     font-size: 2rem;
     color: black; }
@@ -370,15 +371,9 @@ body {
 .background {
   padding-top: 15px;
   display: flex;
-  justify-content: flex-end; }
-  .background .backgroundImage {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100vw;
-    max-height: 85vh;
-    border-radius: 10px;
-    z-index: 1; }
+  justify-content: flex-end;
+  background: url("../img/zdjecia-zakladu/zdjecieZakladu1.jpg") center/cover no-repeat;
+  border-radius: 10px; }
   .background .about-us {
     z-index: 2;
     color: black;
@@ -390,44 +385,33 @@ body {
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 10px; }
-    .background .about-us h1 {
-      font-size: 6rem; }
-    .background .about-us h2 {
-      font-size: 4rem; }
-    .background .about-us p {
-      text-align: justify;
-      font-size: 2.5rem; }
 
-.side-bar {
-  width: 35%;
-  float: right; }
-  .side-bar h2 {
-    font-size: 5rem;
-    font-weight: bold; }
-  .side-bar .gallery-photo {
-    margin: 10px;
-    padding: 0; }
-
-.modal-dialog {
-  margin-top: 15%; }
-
-@media (max-width: 991px) {
-  .about-us h1 {
-    font-size: 3.5rem;
-    font-style: italic; }
+@media (min-width: 1123px) {
+  .about-us h2 {
+    font-size: 4rem;
+    font-style: italic;
+    transition: ease-in 0.5s; }
   .about-us p {
-    font-size: 1.5rem; }
-  .side-bar h2 {
-    font-size: 3.5rem; } }
+    font-size: 2.2rem;
+    transition: ease-in 0.5s; } }
 
-@media (max-width: 567px) {
-  .about-us h1 {
-    font-size: 2.3rem; }
+@media (max-width: 1122px) {
+  .about-us h2 {
+    font-size: 3rem;
+    font-style: italic;
+    transition: ease-in 0.5s; }
   .about-us p {
-    font-size: 1.3rem; }
-  .image-gallery-image img {
-    transition: ease-in 0.5s;
-    height: 50vh; } }
+    font-size: 1.5rem;
+    transition: ease-in 0.5s; } }
+
+@media (max-width: 573px) {
+  .about-us h2 {
+    font-size: 2.5rem;
+    font-style: italic;
+    transition: ease-in 0.5s; }
+  .about-us p {
+    font-size: 1.1rem;
+    transition: ease-in 0.5s; } }
 
 .main-products-container .logo {
   width: 350px;

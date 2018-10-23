@@ -1,6 +1,6 @@
 import {withScriptjs, withGoogleMap, GoogleMap, Marker, InfoWindow} from "react-google-maps"
 import React, {Component} from 'react';
-import logo from "../../../../img/logo.png"
+import logo from "../../../../img/inletta-przezroczyste.png"
 import {Col} from 'react-bootstrap'
 import Google_API from './config';
 

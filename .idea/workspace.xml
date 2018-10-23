@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7d6db1-9690-4393-a003-2d075afa7930" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/components/subcomponents/ContactInfoCompany.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/components/subcomponents/ContactInfoCompany.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/components/subcomponents/MissionHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/components/ProductsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/components/ProductsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/components/subcomponent/ProductElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/components/subcomponent/ProductElements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_products.scss" afterDir="false" />
-    </list>
+    <list default="true" id="0f7d6db1-9690-4393-a003-2d075afa7930" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Products/Products.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -272,12 +254,12 @@
       <workItem from="1538575695228" duration="7628000" />
       <workItem from="1538754063612" duration="3000" />
       <workItem from="1539165541444" duration="247000" />
-      <workItem from="1539940157003" duration="5918000" />
+      <workItem from="1539940157003" duration="6252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72964000" />
+    <option name="totallyTimeSpent" value="73298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -587,7 +569,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Products/Products.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -3,7 +3,7 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 // import logo from "../../img/logo.png";
-import logo from "../../img/logoInletta.png";
+import logo from "../../img/inletta-przezroczyste.png";
 
 class Menu extends Component {
 
