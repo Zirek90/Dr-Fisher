@@ -349,30 +349,41 @@ body {
       font-size: .8em;
       padding: 5px 10px; } }
 
-.top-menu {
-  background-color: #ffffff;
+.top-menu, .navbar-default {
+  background-color: white;
   border: none;
   opacity: 0.8;
   margin: 0;
   z-index: 2; }
-  .top-menu .navbar-brand {
+  .top-menu .navbar-brand, .navbar-default .navbar-brand {
     padding: 0;
     margin: 0; }
-    .top-menu .navbar-brand .logo {
-      width: 250px;
-      height: 110px; }
-  .top-menu .navbar-nav > li > a {
+  .top-menu .navbar-nav li > a, .navbar-default .navbar-nav li > a {
     font-size: 2rem;
     color: black; }
-    .top-menu .navbar-nav > li > a:hover {
+    .top-menu .navbar-nav li > a:hover, .navbar-default .navbar-nav li > a:hover {
       font-size: 2.2rem;
       font-weight: bold; }
+
+@media (min-width: 768px) {
+  .navbar-brand .logo {
+    width: 250px;
+    height: 110px; } }
+
+@media (max-width: 767px) {
+  .navbar-brand .logo {
+    width: 150px;
+    height: 70px; }
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background-color: white; } }
 
 .background {
   padding-top: 15px;
   display: flex;
   justify-content: flex-end;
-  background: url("../img/zdjecia-zakladu/zdjecieZakladu1.jpg") center/cover no-repeat;
+  background: url("../img/zdjecia-zakladu/zdjecieZakladu1.jpg") center/cover no-repeat fixed;
   border-radius: 10px; }
   .background .about-us {
     z-index: 2;
@@ -404,7 +415,7 @@ body {
     font-size: 1.5rem;
     transition: ease-in 0.5s; } }
 
-@media (max-width: 573px) {
+@media screen and (max-width: 573px), screen and (max-height: 615px) {
   .about-us h2 {
     font-size: 2.5rem;
     font-style: italic;
@@ -413,15 +424,17 @@ body {
     font-size: 1.1rem;
     transition: ease-in 0.5s; } }
 
-.main-products-container .logo {
-  width: 350px;
-  height: 200px; }
-
-.main-products-container p {
-  font-size: 2.3rem;
-  letter-spacing: 2px; }
-  .main-products-container p .description-important {
-    font-weight: bolder; }
+.main-products-container {
+  margin: 50px; }
+  .main-products-container .logo {
+    width: 350px;
+    height: 200px;
+    z-index: 4; }
+  .main-products-container p {
+    font-size: 2.3rem;
+    letter-spacing: 2px; }
+    .main-products-container p .description-important {
+      font-weight: bolder; }
 
 .jumbotron {
   background-color: transparent;

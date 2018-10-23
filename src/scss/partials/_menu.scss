@@ -1,5 +1,5 @@
-.top-menu {
-  background-color: #ffffff;
+.top-menu,.navbar-default {
+  background-color: rgba($color: #fff, $alpha: 1.0);
   border: none;
   opacity: 0.8;
   margin: 0;
@@ -7,17 +7,37 @@
   .navbar-brand {
     padding: 0;
     margin: 0;
+  }
+  .navbar-nav {
+    li>a {
+      font-size: 2rem;
+      color: black;
+      &:hover {
+        font-size: 2.2rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
     .logo {
       width: 250px;
       height: 110px;
     }
   }
-  .navbar-nav>li>a {
-    font-size: 2rem;
-    color: black;
-    &:hover {
-      font-size: 2.2rem;
-      font-weight: bold;
+}
+@media (max-width: 767px) {
+  .navbar-brand {
+    .logo {
+      width: 150px;
+      height: 70px;
     }
+  }
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background-color: rgba($color: #fff, $alpha: 1.0);
   }
 }

@@ -1,9 +1,11 @@
 .main-products-container {
   //background-image: radial-gradient( #b0d6e4, #e2ecdc);
   //font-family: Arial, sans-serif;
+  margin: 50px;
   .logo {
     width: 350px;
     height: 200px;
+    z-index: 4;
   }
   p {
     font-size: 2.3rem;

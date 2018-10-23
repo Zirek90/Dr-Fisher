@@ -4,7 +4,7 @@ $transitionOfHeader: ease-in 0.5s;
   padding-top: 15px;
   display: flex;
   justify-content: flex-end;
-  background: url('../img/zdjecia-zakladu/zdjecieZakladu1.jpg') center/cover no-repeat;
+  background: url('../img/zdjecia-zakladu/zdjecieZakladu1.jpg') center/cover no-repeat fixed;
   border-radius: 10px;
   .about-us {
     z-index: 2;
@@ -100,7 +100,7 @@ $transitionOfHeader: ease-in 0.5s;
   }
 }
 
-@media (max-width: 573px) {
+@media screen and (max-width: 573px) , screen and (max-height: 615px) {
   .about-us {
     h2 {
       font-size: 2.5rem;
