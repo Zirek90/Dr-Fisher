@@ -4,34 +4,31 @@ import {Col} from 'react-bootstrap'
 
 class ContactInfoCompany extends Component {
     render() {
+        const content = this.props.content;
+
         return (
             <Col className="contact-info">
                 <div>
-                    <h3>INLETTA Sp. z o.o.</h3>
+                    <h3>{content.subheader}</h3>
                     <p>
-                        Krzywań 25
+                        {content.paragraphOne}
                         <br/>
-                        76-248 Dębnica Kaszubska
+                        {content.paragraphTwo}
                         <br/>
-
-                        NIP: 586-223-01-37
+                        {content.paragraphThree}
                         <br/>
-
-                        REGON: 220696563
+                        {content.paragraphFour}
                         <br/>
-
-                        KRS NR: 0000316965
+                        {content.paragraphFive}
                         <br/>
-                        Sąd Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy
-                        Krajowego Rejestru Sądowego
-
+                        {content.paragraphSix}
                     </p>
-                    <p>Sekretariat tel: <a href="tel:(59)-815-20-53">(59) 815 20 53</a>
+                    <p>{content.paragraphSeven} <a href="tel:(59)-815-20-53">(59) 815 20 53</a>
                         <br/>
-                        Email sekretariat: <a href="mailto:sekretariat@inletta.com"> sekretariat@inletta.com</a>
+                        {content.paragraphEight} <a href="mailto:sekretariat@inletta.com"> sekretariat@inletta.com</a>
                         <br/>
 
-                        Email dział handlowy: <a href="mailto:zamowienia@inletta.com"> zamowienia@inletta.com</a>
+                        {content.paragraphNine} <a href="mailto:zamowienia@inletta.com"> zamowienia@inletta.com</a>
                     </p>
                 </div>
             </Col>

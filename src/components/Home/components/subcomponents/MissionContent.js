@@ -4,17 +4,18 @@ import MissionHeader from "./MissionHeader";
 
 class MissionContent extends Component {
     render() {
+        const content = this.props.content
+
         return (
             <Row className="about-us">
 
-                    <MissionHeader/>
+                    <MissionHeader content={content}/>
                     <Col>
-                        <p>W naszym zakładzie produkujemy szeroką gamę wysokiej jakości konserwy rybne pod własną marką
-                            Dr.
-                            Fisher jak i pod markami naszych globalnych partnerów.
+                        <p> 
+                            {content.paragraphOne}
                         </p>
-                        <p>Naszą misją jest śledzenie trendów na rynku oraz sprostanie wysublimowanym gustom naszych
-                            klientów przy zapewnieniu najwyższej jakości naszych wyrobów.
+                        <p>
+                            {content.paragraphTwo}
                         </p>
                     </Col>
             </Row>

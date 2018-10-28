@@ -92,11 +92,12 @@ const ListOfProducts = [
 
 class ProductsList extends Component {
 
-
     render() {
+        const data = this.props.data;
+
         return (
             <Row>
-                <BrandDescription/>
+                <BrandDescription data={data.description}/>
                 <ProductsHeader/>
                 <Col sm={12} xs={12} className="products-list-container">
 

@@ -4,17 +4,15 @@ import drFisherLogo from "../../../../img/logo.png";
 
 class BrandDescription extends Component {
     render() {
+        const data = this.props.data;
+
         return (
                 <div>
                     <img src={drFisherLogo} className="logo" alt="Dr Fisher logo"/>
-                    <p>
-                        Marka <span className="description-important"> Dr.Fisher </span>łączy tradycję dobrego smaku i
-                        najwyższej jakości produktu z wieloletnim
-                        doświadczeniem przygotowywania konserw rybnych. Nowoczesne metody produkcji zachowujące
-                        wszystkie walory smakowe i odżywcze przetwarzanego surowca oraz dodatki przygotowane w
-                        tradycyjny sposób dają niepowtarzalny smak całej gamie naszych produktów.
+                    <p dangerouslySetInnerHTML={{__html: data.paragraphs}}> 
+                        {/* {data.paragraphOne} */}
                     </p>
-                    <p>
+                    {/* <p>
                         <span className="description-important">Receptury konserw Dr.Fisher’a </span> to wynik
                         wieloletniej pracy, której celem jest osiągnięcie tak
                         bardzo dzisiaj poszukiwanych i cenionych walorów smakowych z jednoczesnym zwróceniem uwagi na
@@ -43,7 +41,7 @@ class BrandDescription extends Component {
                         <span className="description-important">Produkty Dr.Fisher</span> to świadomy wybór zdrowego
                         odżywiania - bez obaw, że walory smakowe muszą
                         zejść na drugi plan.
-                    </p>
+                    </p> */}
                 </div>
         );
     }

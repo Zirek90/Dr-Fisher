@@ -7,9 +7,11 @@ import MapContainer from "./subcomponents/MapContainer";
 
 class ContactInfo extends Component {
     render() {
+        const content = this.props.content;
+
         return (
                 <Row className="contact-row">
-                    <ContactInfoCompany/>
+                    <ContactInfoCompany content={content.contactInfo}/>
                     <MapContainer/>
                 </Row>
         );

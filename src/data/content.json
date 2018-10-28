@@ -1,0 +1,181 @@
+[{
+        "lang": "pl",
+        "page": {
+            "menu": {
+                "home": "Strona Główna",
+                "brand": "Marka",
+                "contact": "Kontakt"
+            },
+            "home": {
+                "header": "Producent konserw rybnych.",
+                "paragraphOne": "W naszym zakładzie produkujemy szeroką gamę wysokiej jakości konserwy rybne pod własną marką Dr. Fisher jak i pod markami naszych globalnych partnerów.",
+                "paragraphTwo": "Naszą misją jest śledzenie trendów na rynku oraz sprostanie wysublimowanym gustom naszych klientów przy zapewnieniu najwyższej jakości naszych wyrobów."
+            },
+            "brand": {
+                "description": {
+                    "paragraphs": "<p>Marka <span class=\"description-important\"> Dr.Fisher </span> łączy tradycję dobrego smaku i najwyższej jakości produktu z wieloletnim doświadczeniem przygotowywania konserw rybnych. Nowoczesne metody produkcji zachowujące wszystkie walory smakowe i odżywcze przetwarzanego surowca oraz dodatki przygotowane w tradycyjny sposób dają niepowtarzalny smak całej gamie naszych produktów. </p> <p><span class=\"description-important\"> Receptury konserw Dr.Fisher’a </span> to wynik wieloletniej pracy, której celem jest osiągnięcie tak bardzo dzisiaj poszukiwanych i cenionych walorów smakowych z jednoczesnym zwróceniem uwagi na niską kaloryczność i wysoką zawartość elementów niezbędnych dla zdrowia i odpowiedniej diety. <span class=\"description-important\"> Zdrowe </span> - nie musi oznaczać nie smaczne – to motto receptur <span class=\"description-important\"> Dr.Fisher’a. </span> Cała linia produktów pod względem smakowym przygotowana została dla wielu odbiorców, łączy ją jedna cecha wspólna – dbałość o składniki - zarówno podstawowe czyli rybę najwyższej jakości jak i dodatki. Starannie dobrane i przygotowane tradycyjnie z zachowaniem wszystkich wartości bioenergetycznych i smakowych. Efektem długich procesów przygotowania są produkty, które stały się niezbędnym elementem zdrowego odżywiania. Jesteśmy jedyną firmą, która przygotowuje swoje sosy z naturalnych składników według oryginalnych wieloletnich receptur.</p> <p> Marka <span class=\"description-important\">  Dr.Fisher </span> jest gwarantem umiejętnego łączenia tradycji i doświadczenia z dzisiejszymi trendami zdrowego odżywiania, propagowanego przez mistrzów kulinarnych, lekarzy, dietetyków i sportowców.</p> <p>W naszym nowoczesnym zakładzie najwyższej jakości surowce trafiają na nasze linie produkcyjne, gdzie nasz wyspecjalizowany personel, który od wielu pokoleń zajmuje się przetwórstwem ryb przygotowuje je z myślą o Państwa zdrowiu i satysfakcji. </p> <p> <span class=\"description-important\"> Produkty Dr.Fisher </span> to świadomy wybór zdrowego odżywiania - bez obaw, że walory smakowe muszą zejść na drugi plan. </p>"
+                },
+                "header": "Nasze topowe produkty",
+                "products": {
+                    "productOne": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE POMIDOROWYM",
+                        "description": "Opis: Przepyszny śledz w sosie pomidorowym, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productTwo": {
+                        "subHeader": "FILETY ŚLEDZIOWE W OLEJU",
+                        "description": "Opis: Przepyszny śledz w oleju, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productThree": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE BARBECUE",
+                        "description": "Opis: Przepyszny śledz w sosie barbecue, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productFour": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE POMIDOROWYM-CHILLI",
+                        "description": "Opis: Przepyszny śledz w sosie pomidorowym-chilli, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productFive": {
+                        "subHeader": "FILETY ŚLEDZIOWE W W SOSIE JANKES",
+                        "description": "Opis: Przepyszny śledz w sosie jankes, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productSix": {
+                        "subHeader": "FILETY ŚLEDZIOWE W OLEJU KARO",
+                        "description": "Opis: Przepyszny śledz w oleju karo, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productSeven": {
+                        "subHeader": "FILETY ŚLEDZIOWE PO KRÓLEWSKU",
+                        "description": "Opis: Przepyszny śledz po królewsku, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productEight": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE POMIDOROWO-PAPRYKOWYM",
+                        "description": "Opis: Przepyszny śledz w sosie pomidorowo-paprykowym, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    }
+                }
+            },
+            "contact": {
+                "header": "Kontakt",
+                "contactInfo": {
+                    "subheader": "INLETTA Sp. z o.o.",
+                    "paragraphOne": "Krzywań 25",
+                    "paragraphTwo": "76-248 Dębnica Kaszubska",
+                    "paragraphThree": "NIP: 586-223-01-37",
+                    "paragraphFour": "REGON: 220696563",
+                    "paragraphFive": "KRS NR: 0000316965",
+                    "paragraphSix": "Sąd Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy Krajowego Rejestru Sądowego",
+                    "paragraphSeven": "Sekretariat tel: ",
+                    "paragraphEight": "Email sekretariat: ",
+                    "paragraphNine": "Email dział handlowy: "
+                },
+                "contactMap": {
+                    "subheader": "Inletta Sp z o.o.",
+                    "paragraphOne": "Krzywań 25"
+                }
+            }
+        }
+    },
+    {
+        "lang": "en",
+        "page": {
+            "menu": {
+                "home": "Home",
+                "brand": "Brand",
+                "contact": "Contact"
+            },
+            "home": {
+                "header": "Pr",
+                "paragraphOne": "W naszym zakładzie produkujemyglobalnych partnerów.",
+                "ParagraphTwo": "Naszą misją jest śledzakości naszych wyrobów."
+            },
+            "brand": {
+                "description": {
+                    "paragraphs": "<p>Marka <span class=\"description-important\"> Dr.Brows </span> łączy tradycję dobrego smaku i najwyższej jakości produktu z wieloletnim doświadczeniem przygotowywania konserw rybnych. Nowoczesne metody produkcji zachowujące wszystkie walory smakowe i odżywcze przetwarzanego surowca oraz dodatki przygotowane w tradycyjny sposób dają niepowtarzalny smak całej gamie naszych produktów. </p><p><span class=\"description-important\"> Receptury konserw Dr.Fisher’a </span> to wynik wieloletniej pracy, której celem jest osiągnięcie tak bardzo dzisiaj poszukiwanych i cenionych walorów smakowych z jednoczesnym zwróceniem uwagi na niską kaloryczność i wysoką zawartość elementów niezbędnych dla zdrowia i odpowiedniej diety. <span class=\"description-important\"> Zdrowe </span> - nie musi oznaczać nie smaczne – to motto receptur <span class=\"description-important\"> Dr.Fisher’a. </span> Cała linia produktów pod względem smakowym przygotowana została dla wielu odbiorców, łączy ją jedna cecha wspólna – dbałość o składniki - zarówno podstawowe czyli rybę najwyższej jakości jak i dodatki. Starannie dobrane i przygotowane tradycyjnie z zachowaniem wszystkich wartości bioenergetycznych i smakowych. Efektem długich procesów przygotowania są produkty, które stały się niezbędnym elementem zdrowego odżywiania. Jesteśmy jedyną firmą, która przygotowuje swoje sosy z naturalnych składników według oryginalnych wieloletnich receptur.</p> <p> Marka <span class=\"description-important\">  Dr.Fisher </span> jest gwarantem umiejętnego łączenia tradycji i doświadczenia z dzisiejszymi trendami zdrowego odżywiania, propagowanego przez mistrzów kulinarnych, lekarzy, dietetyków i sportowców.</p> <p>W naszym nowoczesnym zakładzie najwyższej jakości surowce trafiają na nasze linie produkcyjne, gdzie nasz wyspecjalizowany personel, który od wielu pokoleń zajmuje się przetwórstwem ryb przygotowuje je z myślą o Państwa zdrowiu i satysfakcji. </p> <p> <span class=\"description-important\"> Produkty Dr.Fisher </span> to świadomy wybór zdrowego odżywiania - bez obaw, że walory smakowe muszą zejść na drugi plan. </p>"
+                },
+                "header": "Nasze topowe produkty",
+                "products": {
+                    "productOne": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE POMIDOROWYM",
+                        "description": "Opis: Przepyszny śledz w sosie pomidorowym, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productTwo": {
+                        "subHeader": "FILETY ŚLEDZIOWE W OLEJU",
+                        "description": "Opis: Przepyszny śledz w oleju, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productThree": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE BARBECUE",
+                        "description": "Opis: Przepyszny śledz w sosie barbecue, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productFour": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE POMIDOROWYM-CHILLI",
+                        "description": "Opis: Przepyszny śledz w sosie pomidorowym-chilli, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productFive": {
+                        "subHeader": "FILETY ŚLEDZIOWE W W SOSIE JANKES",
+                        "description": "Opis: Przepyszny śledz w sosie jankes, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productSix": {
+                        "subHeader": "FILETY ŚLEDZIOWE W OLEJU KARO",
+                        "description": "Opis: Przepyszny śledz w oleju karo, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productSeven": {
+                        "subHeader": "FILETY ŚLEDZIOWE PO KRÓLEWSKU",
+                        "description": "Opis: Przepyszny śledz po królewsku, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    },
+                    "productEight": {
+                        "subHeader": "FILETY ŚLEDZIOWE W SOSIE POMIDOROWO-PAPRYKOWYM",
+                        "description": "Opis: Przepyszny śledz w sosie pomidorowo-paprykowym, rewelacyjny posiłek dla całej rodziny.",
+                        "dimensions": "Wymiary: 130 x 150 x 20",
+                        "weight": "Waga: 170g"
+                    }
+                }
+            },
+            "contact": {
+                "header": "Contact",
+                "contactInfo": {
+                    "subheader": "INLETTA Sp. z o.o. !!!!",
+                    "paragraphOne": "Krzywań 25",
+                    "paragraphTwo": "76-248 Dębnica Kaszubska",
+                    "paragraphThree": "NIP: 586-223-01-37",
+                    "paragraphFour": "REGON: 220696563",
+                    "paragraphFive": "KRS NR: 0000316965",
+                    "paragraphSix": "Sąd Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy Krajowego Rejestru Sądowego",
+                    "paragraphSeven": "Sekretariat tel: ",
+                    "paragraphEight": "Email sekretariat: ",
+                    "paragraphNine": "Email dział handlowy: "
+                },
+                "contactMap": {
+                    "subheader": "Inletta Sp z o.o.",
+                    "paragraphOne": "Krzywań 25"
+                }
+            }
+        }
+    }
+]
