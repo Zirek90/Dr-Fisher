@@ -18,7 +18,7 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
                     <img src={logo} alt="company logo"></img>
                     <p>Inletta Sp z o.o.</p>
                     <p>Krzywań 25</p>
-                    <p><a href="tel:(59) 815 20 53">tel: (59) 815 20 53</a></p>
+                    <p><a href="tel:(59) 815 20 53"> (59) 815 20 53</a></p>
                     <p><a href="mailto:sekretariat@inletta.com">sekretariat@inletta.com</a></p>
                 </div>
             </InfoWindow>

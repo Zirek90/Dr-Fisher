@@ -97,9 +97,9 @@
                 "contact": "Contact"
             },
             "home": {
-                "header": "Pr",
-                "paragraphOne": "W naszym zakładzie produkujemyglobalnych partnerów.",
-                "ParagraphTwo": "Naszą misją jest śledzakości naszych wyrobów."
+                "header": "Producer of fish cans",
+                "paragraphOne": "Our plant produce wide range of high quality fish can products under the brand Dr. Fisher and also under the brand of our global partners.",
+                "paragraphTwo": "Our mission is observing the trends on the market and satisfying the most sophisticated tastes of our clients with providing top quality products."
             },
             "brand": {
                 "description": {
@@ -160,16 +160,16 @@
             "contact": {
                 "header": "Contact",
                 "contactInfo": {
-                    "subheader": "INLETTA Sp. z o.o. !!!!",
+                    "subheader": "INLETTA Sp. z o.o.",
                     "paragraphOne": "Krzywań 25",
                     "paragraphTwo": "76-248 Dębnica Kaszubska",
                     "paragraphThree": "NIP: 586-223-01-37",
                     "paragraphFour": "REGON: 220696563",
                     "paragraphFive": "KRS NR: 0000316965",
                     "paragraphSix": "Sąd Rejonowy Gdańsk – Północ w Gdańsku VIII Wydział Gospodarczy Krajowego Rejestru Sądowego",
-                    "paragraphSeven": "Sekretariat tel: ",
-                    "paragraphEight": "Email sekretariat: ",
-                    "paragraphNine": "Email dział handlowy: "
+                    "paragraphSeven": "Secretary phone:",
+                    "paragraphEight": "Secretary email:",
+                    "paragraphNine": "Sales department email:"
                 },
                 "contactMap": {
                     "subheader": "Inletta Sp z o.o.",
