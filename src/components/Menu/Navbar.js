@@ -5,6 +5,8 @@ import {actions} from '.././actions/actions';
 
 // import logo from "../../img/logo.png";
 import logo from "../../img/inletta-przezroczyste.png";
+import plFlag from '../../img/plFlag.png'
+import enFlag from '../../img/enFlag.png'
 
 let ReactRedux = require('react-redux');
 
@@ -31,8 +33,12 @@ class Menu extends Component {
                         <NavItem eventKey={3} componentClass={Link} to="/contact" href="/contact">{content.page.menu.contact}</NavItem>
                     </Nav>
                     <Nav pullRight>
-                        <NavItem eventKey={1} componentClass={Link} to="#" href="#" onClick={switchLanguage.bind(this,'pl')}>PL</NavItem>
-                        <NavItem eventKey={2} componentClass={Link} to="#" href="#" onClick={switchLanguage.bind(this,'en')}>EN</NavItem>
+                        <NavItem eventKey={1} componentClass={Link} to="#" href="#" onClick={switchLanguage.bind(this,'pl')}>
+                            <img src={plFlag} alt='polish-flag'></img>
+                        </NavItem>
+                        <NavItem eventKey={2} componentClass={Link} to="#" href="#" onClick={switchLanguage.bind(this,'en')}>
+                            <img src={enFlag} alt='english-flag'></img>
+                        </NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
