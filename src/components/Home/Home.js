@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap'
+// import { Grid } from 'react-bootstrap'
 
 import MissionContent from "./components/subcomponents/MissionContent";
-import HomeSlider from "./components/HomeSlider";
-import SideBar from "./components/SideBar";
+// import HomeSlider from "./components/HomeSlider";
+// import SideBar from "./components/SideBar";
 
 import {actions} from '.././actions/actions';
 let ReactRedux = require('react-redux');
