@@ -434,8 +434,6 @@ body {
 .main-products-container {
   margin: 50px; }
   .main-products-container .logo {
-    width: 350px;
-    height: 200px;
     z-index: 4; }
   .main-products-container p {
     font-size: 2.3rem;
@@ -447,8 +445,6 @@ body {
   background-color: transparent;
   margin: 0;
   padding: 20px; }
-  .jumbotron h1 {
-    font-size: 6rem; }
 
 .products-row:nth-child(1) > h2, .products-row:nth-child(1) > h3 {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.76), rgba(184, 199, 118, 0.582));
@@ -477,19 +473,24 @@ body {
     display: flex;
     align-items: center;
     border: 1px solid black; }
-    .products-row .product-element-container .products-description ul {
-      padding: 15px; }
-      .products-row .product-element-container .products-description ul li {
-        list-style: none;
-        text-align: justify;
-        padding: 5px; }
-        .products-row .product-element-container .products-description ul li .product-text {
-          font-weight: bolder;
-          color: black; }
+    .products-row .product-element-container .products-description ul li {
+      list-style: none;
+      text-align: justify;
+      padding: 5px; }
+      .products-row .product-element-container .products-description ul li .product-text {
+        font-weight: bolder;
+        color: black; }
   .products-row .product-element-container ul > li:nth-child(5) {
     color: green; }
 
 @media (min-width: 749px) {
+  .jumbotron > h1 {
+    font-size: 6rem; }
+  .logo {
+    width: 350px;
+    height: 200px; }
+  .product-element-container .products-description ul {
+    padding: 15px; }
   .product-element-container .products-description ul > li:not(.eng) {
     font-size: 1.8rem; }
   .product-element-container .products-description ul > .eng {
@@ -498,6 +499,13 @@ body {
     max-height: 400px; } }
 
 @media (max-width: 748px) {
+  .jumbotron > h1 {
+    font-size: 6rem; }
+  .logo {
+    width: 350px;
+    height: 200px; }
+  .product-element-container .products-description ul {
+    padding: 15px; }
   .product-element-container .products-description ul > li:not(.eng) {
     font-size: 1.1rem; }
   .product-element-container .products-description ul > .eng {
@@ -506,12 +514,27 @@ body {
     max-height: 250px; } }
 
 @media (max-width: 512px) {
+  .logo {
+    width: 250px;
+    height: 100px; }
   .product-element-container .products-description ul > li:not(.eng) {
     font-size: 0.8rem; }
   .product-element-container .products-description ul > .eng {
     font-size: 0.6rem; }
   .img-thumbnail {
-    max-height: 220px; } }
+    max-height: 190px; } }
+
+@media (max-width: 430px) {
+  .jumbotron > h1 {
+    font-size: 4rem; }
+  .product-element-container .products-description ul {
+    padding: 10px; }
+  .product-element-container .products-description ul > li:not(.eng) {
+    font-size: 0.4rem; }
+  .product-element-container .products-description ul > .eng {
+    font-size: 0.3rem; }
+  .img-thumbnail {
+    max-height: 130px; } }
 
 .map-loading-element {
   height: 100%; }
@@ -526,11 +549,9 @@ body {
 
 .contact .contact-container .contact-row {
   height: 76vh;
-  display: flex;
   justify-content: space-between;
   align-items: center; }
   .contact .contact-container .contact-row .contact-info {
-    height: 100%;
     display: flex;
     align-items: center;
     text-align: left; }
@@ -543,67 +564,75 @@ body {
   padding: 0; }
 
 @media (min-width: 992px) {
-  .contact-info h3 {
-    font-size: 5rem;
-    padding-bottom: 30px; }
-  .contact-info p {
-    letter-spacing: 2px;
-    font-size: 2rem; }
-  .map-container-element {
-    transition: ease-in 0.5s;
-    height: 450px;
-    width: 500px;
-    margin: 50px; }
-  .MapInfo {
-    width: 150px;
-    height: 150px; }
-    .MapInfo img {
-      width: 100px;
-      height: 50px; } }
+  .contact-row {
+    display: flex; }
+    .contact-row .contact-info h3 {
+      font-size: 5rem;
+      padding-bottom: 30px; }
+    .contact-row .contact-info p {
+      letter-spacing: 2px;
+      font-size: 2rem; }
+    .contact-row .map-container-element {
+      transition: ease-in 0.5s;
+      height: 450px;
+      width: 500px;
+      margin: 50px; }
+    .contact-row .MapInfo {
+      width: 150px;
+      height: 150px; }
+      .contact-row .MapInfo img {
+        width: 100px;
+        height: 50px; } }
 
 @media (max-width: 991px) {
-  .contact-info h3 {
-    font-size: 3rem;
-    padding-bottom: 30px; }
-  .contact-info p {
-    letter-spacing: 1px;
-    font-size: 1rem;
-    padding: 10px; }
-  .map-container-element {
-    transition: ease-in 0.5s;
-    height: 300px;
-    width: 350px;
-    margin: 25px; }
-  .MapInfo {
-    width: 55px;
-    height: 60px; }
-    .MapInfo img {
-      width: 50px;
-      height: 25px; }
-    .MapInfo h3 {
+  .contact-row {
+    display: flex; }
+    .contact-row .contact-info h3 {
+      font-size: 3rem;
+      padding-bottom: 30px; }
+    .contact-row .contact-info p {
+      letter-spacing: 1px;
       font-size: 1rem;
-      margin: 5px; }
-    .MapInfo p {
-      font-size: 0.7rem; } }
+      padding: 10px; }
+    .contact-row .map-container-element {
+      transition: ease-in 0.5s;
+      height: 300px;
+      width: 350px;
+      margin: 25px; }
+    .contact-row .MapInfo {
+      width: 55px;
+      height: 60px; }
+      .contact-row .MapInfo img {
+        width: 50px;
+        height: 25px; }
+      .contact-row .MapInfo h3 {
+        font-size: 1rem;
+        margin: 5px; }
+      .contact-row .MapInfo p {
+        font-size: 0.7rem; } }
 
 @media (max-width: 678px) {
-  .map-container-element {
+  .contact-row {
+    display: inline-block; }
+    .contact-row .MapInfo {
+      width: 40px;
+      height: 45px; }
+      .contact-row .MapInfo img {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 2px; }
+      .contact-row .MapInfo h3 {
+        font-size: 0.6rem;
+        margin-bottom: 2px; }
+      .contact-row .MapInfo p {
+        font-size: 0.4rem; } }
+
+@media (max-width: 400px) {
+  .contact-row .map-container-element {
     transition: ease-in 0.5s;
     height: 180px;
     width: 230px;
-    margin: 10px; }
-  .MapInfo {
-    width: 40px;
-    height: 45px; }
-    .MapInfo img {
-      width: 35px;
-      height: 35px;
-      margin-bottom: 2px; }
-    .MapInfo h3 {
-      font-size: 0.6rem;
-      margin-bottom: 2px; }
-    .MapInfo p {
-      font-size: 0.4rem; } }
+    margin: 10px; } }
 
 .footer {
   z-index: 3; }

@@ -10,6 +10,7 @@ $mapContainerTransition: ease-in 0.5s;
 }
 
 .contact {
+
   //background-image: radial-gradient(#b0d6e4, #e2ecdc);
   .contact-container {
     h1 {
@@ -17,18 +18,21 @@ $mapContainerTransition: ease-in 0.5s;
       padding: 0;
       margin: 20px;
     }
+
     .contact-row {
       height: 76vh;
-      display: flex;
+      // display: flex;
       justify-content: space-between;
       align-items: center;
+
       .contact-info {
-        height: 100%;
+        // height: 100%;
         display: flex;
         align-items: center;
         text-align: left;
       }
-      .contact-info > div {
+
+      .contact-info>div {
         background-color: rgba(230, 230, 230, 0.3);
         padding: 10px;
       }
@@ -43,88 +47,124 @@ $mapContainerTransition: ease-in 0.5s;
 }
 
 @media (min-width: 992px) {
-  .contact-info {
-    h3 {
-      font-size: 5rem;
-      padding-bottom: 30px;
+  .contact-row {
+    display: flex;
+
+    .contact-info {
+      h3 {
+        font-size: 5rem;
+        padding-bottom: 30px;
+      }
+
+      p {
+        letter-spacing: 2px;
+        font-size: 2rem;
+      }
     }
-    p {
-      letter-spacing: 2px;
-      font-size: 2rem;
+
+    .map-container-element {
+      transition: $mapContainerTransition;
+      height: 450px;
+      width: 500px;
+      margin: 50px;
     }
-  }
-  .map-container-element {
-    transition: $mapContainerTransition;
-    height: 450px;
-    width: 500px;
-    margin: 50px;
-  }
-  .MapInfo {
-    width: 150px;
-    height: 150px;
-    img {
-      width: 100px;
-      height: 50px;
+
+    .MapInfo {
+      width: 150px;
+      height: 150px;
+
+      img {
+        width: 100px;
+        height: 50px;
+      }
     }
   }
 }
 
 @media (max-width: 991px) {
-  .contact-info {
-    h3 {
-      font-size: 3rem;
-      padding-bottom: 30px;
+  .contact-row {
+    display: flex;
+
+    .contact-info {
+      h3 {
+        font-size: 3rem;
+        padding-bottom: 30px;
+      }
+
+      p {
+        letter-spacing: 1px;
+        font-size: 1rem;
+        padding: 10px;
+      }
     }
-    p {
-      letter-spacing: 1px;
-      font-size: 1rem;
-      padding: 10px;
+
+    .map-container-element {
+      transition: $mapContainerTransition;
+      height: 300px;
+      width: 350px;
+      margin: 25px;
     }
-  }
-  .map-container-element {
-    transition: $mapContainerTransition;
-    height: 300px;
-    width: 350px;
-    margin: 25px;
-  }
-  .MapInfo {
-    width: 55px;
-    height: 60px;
-    img {
-      width: 50px;
-      height: 25px;
-    }
-    h3 {
-      font-size: 1rem;
-      margin: 5px;
-    }
-    p {
-      font-size: 0.7rem;
+
+    .MapInfo {
+      width: 55px;
+      height: 60px;
+
+      img {
+        width: 50px;
+        height: 25px;
+      }
+
+      h3 {
+        font-size: 1rem;
+        margin: 5px;
+      }
+
+      p {
+        font-size: 0.7rem;
+      }
     }
   }
 }
 
 @media (max-width: 678px) {
-  .map-container-element {
-    transition: $mapContainerTransition;
-    height: 180px;
-    width: 230px;
-    margin: 10px;
+  .contact-row {
+    display: inline-block;
+
+    // .map-container-element {
+    //   transition: $mapContainerTransition;
+    //   height: 180px;
+    //   width: 230px;
+    //   margin: 10px;
+    // }
+    .MapInfo {
+      width: 40px;
+      height: 45px;
+
+      img {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 2px;
+      }
+
+      h3 {
+        font-size: 0.6rem;
+        margin-bottom: 2px;
+      }
+
+      p {
+        font-size: 0.4rem;
+      }
+    }
   }
-  .MapInfo {
-    width: 40px;
-    height: 45px;
-    img {
-      width: 35px;
-      height: 35px;
-      margin-bottom: 2px;
-    }
-    h3 {
-      font-size: 0.6rem;
-      margin-bottom: 2px;
-    }
-    p {
-      font-size: 0.4rem;
+}
+
+@media (max-width: 400px) {
+  .contact-row {
+    .map-container-element {
+      transition: $mapContainerTransition;
+      height: 180px;
+      width: 230px;
+      margin: 10px;
     }
   }
 }
