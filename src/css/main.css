@@ -388,7 +388,6 @@ body {
   .background .about-us {
     z-index: 2;
     color: black;
-    max-width: 40%;
     text-align: center;
     margin-right: 25px;
     height: 82vh;
@@ -398,22 +397,26 @@ body {
     margin-bottom: 10px; }
 
 @media (min-width: 1123px) {
-  .about-us h2 {
-    font-size: 4rem;
-    font-style: italic;
-    transition: ease-in 0.5s; }
-  .about-us p {
-    font-size: 2.2rem;
-    transition: ease-in 0.5s; } }
+  .about-us {
+    max-width: 40%; }
+    .about-us h2 {
+      font-size: 4rem;
+      font-style: italic;
+      transition: ease-in 0.5s; }
+    .about-us p {
+      font-size: 2.2rem;
+      transition: ease-in 0.5s; } }
 
 @media (max-width: 1122px) {
-  .about-us h2 {
-    font-size: 3rem;
-    font-style: italic;
-    transition: ease-in 0.5s; }
-  .about-us p {
-    font-size: 1.5rem;
-    transition: ease-in 0.5s; } }
+  .about-us {
+    max-width: 40%; }
+    .about-us h2 {
+      font-size: 3rem;
+      font-style: italic;
+      transition: ease-in 0.5s; }
+    .about-us p {
+      font-size: 1.5rem;
+      transition: ease-in 0.5s; } }
 
 @media screen and (max-width: 573px), screen and (max-height: 615px) {
   .about-us h2 {
@@ -423,6 +426,10 @@ body {
   .about-us p {
     font-size: 1.1rem;
     transition: ease-in 0.5s; } }
+
+@media (max-width: 573px) {
+  .about-us {
+    max-width: 60%; } }
 
 .main-products-container {
   margin: 50px; }

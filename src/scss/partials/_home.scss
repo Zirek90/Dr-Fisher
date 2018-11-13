@@ -12,7 +12,7 @@ $transitionOfHeader: ease-in 0.5s;
     //height: 90vh;
     //align-items: center;
     //margin-top: 20%;
-    max-width: 40%;
+    // max-width: 40%;
     text-align: center;
     margin-right: 25px;
     height: 82vh;
@@ -74,6 +74,7 @@ $transitionOfHeader: ease-in 0.5s;
 
 @media (min-width: 1123px) {
   .about-us {
+    max-width: 40%;
     h2 {
       font-size: 4rem;
       font-style: italic;
@@ -88,6 +89,7 @@ $transitionOfHeader: ease-in 0.5s;
 
 @media (max-width: 1122px) {
   .about-us {
+    max-width: 40%;
     h2 {
       font-size: 3rem;
       font-style: italic;
@@ -111,6 +113,12 @@ $transitionOfHeader: ease-in 0.5s;
       font-size: 1.1rem;
       transition: $transitionOfHeader;
     }
+  }
+}
+
+@media (max-width: 573px) {
+  .about-us {
+    max-width: 60%;
   }
 }
 
