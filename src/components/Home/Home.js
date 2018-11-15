@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-// import { Grid } from 'react-bootstrap'
+import { Grid } from 'react-bootstrap'
 
 import MissionContent from "./components/subcomponents/MissionContent";
-// import HomeSlider from "./components/HomeSlider";
-// import SideBar from "./components/SideBar";
+import HomeSlider from "./components/HomeSlider";
+import SideBar from "./components/SideBar";
 
 import {actions} from '.././actions/actions';
 let ReactRedux = require('react-redux');
@@ -16,9 +16,13 @@ class Home extends Component {
         if (content) {
 
         return ( 
-            <div className="background">
-                <MissionContent content={content.page.home}/>
-            </div>
+            <div className="home-container">
+            <HomeSlider/>
+            <Grid className="text-center">
+            <MissionContent content={content.page.home}/>
+                <SideBar/>
+            </Grid>
+        </div>
         )
     } else {
         return;

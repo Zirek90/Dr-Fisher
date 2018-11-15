@@ -10,9 +10,11 @@ $mapContainerTransition: ease-in 0.5s;
 }
 
 .contact {
+  color: white;
 
   //background-image: radial-gradient(#b0d6e4, #e2ecdc);
   .contact-container {
+    padding-top: 77px;
     h1 {
       font-size: 5.2rem;
       padding: 0;
@@ -33,7 +35,7 @@ $mapContainerTransition: ease-in 0.5s;
       }
 
       .contact-info>div {
-        background-color: rgba(230, 230, 230, 0.3);
+        background-color: rgba(27, 23, 23, 0.3);
         padding: 10px;
       }
     }

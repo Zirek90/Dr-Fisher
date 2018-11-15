@@ -25,7 +25,7 @@ class SideBarGallery extends Component {
     render() {
         return (
                 <Col xs={6} sm={6}>
-                    <Image src={this.props.photo} rounded responsive className={"gallery-photo"}
+                    <Image src={this.props.photo} responsive className={"gallery-photo"}
                            onClick={this.handleShow}/>
                     <Modal show={this.state.show} onHide={this.handleClose}>
                         <Modal.Body>
