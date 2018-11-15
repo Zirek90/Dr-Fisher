@@ -11,8 +11,6 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Products from "./components/Products/Products";
 import Contact from "./components/Contact/Contact";
-// import Container from './components/Container';
-// pamietac aby usnac plik container.js zbedny
 
 
 const store = createStore(content);
