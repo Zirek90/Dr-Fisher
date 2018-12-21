@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Row, Col} from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import MissionHeader from "./MissionHeader";
 
 class MissionContent extends Component {
@@ -7,6 +7,7 @@ class MissionContent extends Component {
         const content = this.props.content
 
         return (
+
             <Row className="about-us">
 
                     <MissionHeader content={content}/>
@@ -19,6 +20,7 @@ class MissionContent extends Component {
                         </p>
                     </Col>
             </Row>
+
         );
     }
 }

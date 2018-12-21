@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-// import { Grid } from 'react-bootstrap'
+import { Grid } from 'react-bootstrap'
 
 import MissionContent from "./components/subcomponents/MissionContent";
-// import HomeSlider from "./components/HomeSlider";
-// import SideBar from "./components/SideBar";
+
 
 import {actions} from '.././actions/actions';
 let ReactRedux = require('react-redux');
@@ -16,6 +15,7 @@ class Home extends Component {
         if (content) {
 
         return ( 
+            
             <div className="background">
                 <MissionContent content={content.page.home}/>
             </div>
@@ -31,4 +31,3 @@ export default ReactRedux.connect(
   )(Home);
 
 
-// export default Home;

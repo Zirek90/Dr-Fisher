@@ -6,7 +6,6 @@ class MissionHeader extends Component {
 
         return (
             <div>
-                {/*<h1>Inletta Sp. z o. o.</h1>*/}
                 <h2>{content.header}</h2>
             </div>
         );

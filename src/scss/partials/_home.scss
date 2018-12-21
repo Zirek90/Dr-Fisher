@@ -4,14 +4,11 @@ $transitionOfHeader: ease-in 0.5s;
   padding-top: 15px;
   display: flex;
   justify-content: flex-end;
-  background: url('../img/zdjecia-zakladu/zak.jpg') center/cover no-repeat;
+  background: url('../img/zdjecia-zakladu/zak.jpg') 50%/cover no-repeat;
   border-radius: 10px;
   .about-us {
     z-index: 2;
     color: black;
-    //height: 90vh;
-    //align-items: center;
-    //margin-top: 20%;
     max-width: 40%;
     text-align: center;
     margin-right: 25px;
@@ -20,60 +17,31 @@ $transitionOfHeader: ease-in 0.5s;
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 10px;
-
-    // h1 {
-    //   font-size: 5rem;
-    // }
-    // h2 {
-    //   font-size: 4rem;
-    // }
-
-    // p {
-    //   text-align: justify;
-    //   font-size: 2.2rem;
-    // }
   }
 }
 
-
-//
-//.about-us {
-//  width: 60%;
-//  float: left;
-//  color: black;
-//  //background-color: rgba(230, 230, 230, 0.3);
-//  padding: 20px;
-//  border-radius: 10px;
-//  h1 {
-//    font-family: 'Cabin', 'Arial', sans-serif;
-//    font-size: 5.5rem;
-//    margin-top: 8px;
-//  }
-//  p {
-//    font-size: 2rem;
-//    text-align: justify;
-//  }
-//}
-
-// .side-bar {
-//   width: 35%;
-//   float: right;
-//   h2 {
-//     font-size: 5rem;
-//     font-weight: bold;
-//   }
-//   .gallery-photo {
-//     margin: 10px;
-//     padding: 0;
-//   }
-// }
-
-// .modal-dialog {
-//   margin-top: 15%;
-// }
+.about-us {
+ width: 60%;
+ float: left;
+ color: black;
+ //background-color: rgba(230, 230, 230, 0.3);
+ padding: 20px;
+ border-radius: 10px;
+ h1 {
+   font-family: 'Cabin', 'Arial', sans-serif;
+   font-size: 5.5rem;
+   margin-top: 8px;
+   font-style: italic;
+ }
+ p {
+   font-size: 2.2rem;
+   text-align: center;
+ }
+}
 
 @media (min-width: 1123px) {
   .about-us {
+    max-width: 40%;
     h2 {
       font-size: 4rem;
       font-style: italic;
@@ -88,6 +56,7 @@ $transitionOfHeader: ease-in 0.5s;
 
 @media (max-width: 1122px) {
   .about-us {
+    max-width: 40%;
     h2 {
       font-size: 3rem;
       font-style: italic;
@@ -113,20 +82,3 @@ $transitionOfHeader: ease-in 0.5s;
     }
   }
 }
-
-// @media (max-width: 567px) {
-//   .about-us {
-//     h1 {
-//       font-size: 2.3rem;
-//     }
-//     p {
-//       font-size: 1.3rem;
-//     }
-//   }
-//   .image-gallery-image {
-//     img {
-//       transition: ease-in 0.5s;
-//       height: 50vh;
-//     }
-//   }
-// }
