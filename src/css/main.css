@@ -383,7 +383,7 @@ body {
   padding-top: 15px;
   display: flex;
   justify-content: flex-end;
-  background: url("../img/zdjecia-zakladu/zdjecieZakladu1.jpg") center/cover no-repeat fixed;
+  background: url("../img/zdjecia-zakladu/zak.jpg") center/cover no-repeat;
   border-radius: 10px; }
   .background .about-us {
     z-index: 2;
@@ -392,7 +392,7 @@ body {
     text-align: center;
     margin-right: 25px;
     height: 82vh;
-    background-color: rgba(248, 248, 248, 0.3);
+    background-color: rgba(226, 226, 226, 0.5);
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 10px; }
